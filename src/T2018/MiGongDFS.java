@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @CreateTime: 2019-02-22 16:43
  * @Description: ${Description}
  */
-public class Main {
+public class MiGongDFS {
     int min=0;
     boolean[] kset=new boolean[26];
     char[][] arr;
@@ -34,9 +34,9 @@ public class Main {
                 arr[i][j] = chars[j];
             }
         }
-        Main Main=new Main(arr,history);
-        Main.findPath(b1,b2,0);
-        System.out.println(Main.min);
+        MiGongDFS MiGongDFS =new MiGongDFS(arr,history);
+        MiGongDFS.findPath(b1,b2,0);
+        System.out.println(MiGongDFS.min);
     }
 
     private void findPath(int i, int j,int count) {
@@ -72,7 +72,7 @@ public class Main {
         findPath(i,j+1,count);
     }
 
-    public Main(char[][] arr,boolean[][] history) {
+    public MiGongDFS(char[][] arr, boolean[][] history) {
         this.arr = arr;
         this.row=arr.length;
         this.col=arr[0].length;
