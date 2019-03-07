@@ -12,29 +12,33 @@ public class HongHeLv {
         Scanner scanner = new Scanner(System.in);
         String line = scanner.next();
         char[] chars = line.toCharArray();
-        int max=Integer.MIN_VALUE,maxp=-1;
+        int min = Integer.MAX_VALUE, minp = -1;
         for (int i = 0; i < chars.length; i++) {
-            if(chars[i]=='G')
-                continue;
-            int nr1=0,nr2=0;
+            int ng1 = 0, nr2 = 0;
             for (int j = 0; j < chars.length; j++) {
-                if (j<=i&&chars[j]=='R')
-                   nr1++;
-                else if(j>i&&chars[j]=='R')
+                if (j <= i && chars[j] == 'G')
+                    ng1++;
+                else if (j > i && chars[j] == 'R')
                     nr2++;
             }
-            if(nr1-nr2>max){
-                max=nr1-nr2;
-                maxp=i;
+            if (ng1 + nr2 < min) {
+                min = ng1 + nr2;
+                minp = i;
             }
         }
-        int count=0;
-        for (int i=0;i<chars.length;i++){
-            if(i<=maxp&&chars[i]=='G')
+        int count = 0, countR = 0;
+        for (int i = 0; i < chars.length; i++) {
+            if (i <= minp && chars[i] == 'G')
                 count++;
-            else if (i>maxp&&chars[i]=='R')
+            else if (i <= minp && chars[i] == 'R')
+                countR++;
+            else if (i > minp && chars[i] == 'R') {
                 count++;
+                countR++;
+            }
         }
-        System.out.println(count);
+        if (count <= countR)
+            System.out.println(count);
+        else System.out.println(countR);
     }
 }

@@ -23,13 +23,13 @@ public class XunHuanShu {
         int l1 = sb1.toString().length();
         int l2 = sb2.toString().length();
         if (l1 > l2)
-            System.out.println("Great");
+            System.out.println("Greater");
         else if (l1 < l2)
             System.out.println("Less");
         else {
             int r = sb1.toString().compareTo(sb2.toString());
             if (r > 0)
-                System.out.println("Great");
+                System.out.println("Greater");
             else if (r == 0)
                 System.out.println("Equal");
             else
