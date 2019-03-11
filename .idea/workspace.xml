@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="e882aeef-53e9-4b37-8e71-f669f89434dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 =======
     <list default="true" id="e882aeef-53e9-4b37-8e71-f669f89434dd" name="Default Changelist" comment="" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+    <list default="true" id="e882aeef-53e9-4b37-8e71-f669f89434dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/learn.docx" beforeDir="false" afterPath="$PROJECT_DIR$/learn.docx" afterDir="false" />
+    </list>
+>>>>>>> parent of 08ae77d... Revert "change learn"
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +27,10 @@
     <session id="-2067988797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,6 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/T2018/ZuiHouYiWei.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="1053">
               <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
@@ -82,6 +90,9 @@
               <caret line="2" selection-start-line="2" selection-end-line="32" />
 =======
             <state relative-caret-position="300">
+=======
+            <state relative-caret-position="270">
+>>>>>>> parent of 08ae77d... Revert "change learn"
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
 >>>>>>> parent of 7a17d00... change learn
               <folding>
@@ -95,12 +106,17 @@
         <entry file="file://$PROJECT_DIR$/src/T2018/NaiNiuBianHao.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="324">
               <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
 =======
             <state relative-caret-position="690">
               <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+            <state relative-caret-position="630">
+              <caret line="23" column="1" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +132,12 @@
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
 =======
             <state relative-caret-position="540">
+<<<<<<< HEAD
               <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
             </state>
           </provider>
         </entry>
@@ -126,12 +146,17 @@
         <entry file="file://$PROJECT_DIR$/src/zfl/Cell2Poscar.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="297">
               <caret line="16" selection-start-line="12" selection-end-line="16" />
 =======
             <state relative-caret-position="735">
               <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+            <state relative-caret-position="796">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="37" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
             </state>
           </provider>
         </entry>
@@ -369,10 +394,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551252893789</updated>
       <workItem from="1551611338437" duration="6483000" />
+      <workItem from="1552031366476" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="6483000" />
 <<<<<<< HEAD
   </component>
@@ -390,19 +417,26 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31319556" />
 =======
+=======
+    <option name="totallyTimeSpent" value="6505000" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
   </component>
   <component name="ToolWindowManager">
     <frame x="658" y="0" width="1117" height="1100" extended-state="0" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25449386" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2592242" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32232705" />
@@ -414,8 +448,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,6 +457,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,8 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2018/XunHuanShu.java">
+    <entry file="file://$PROJECT_DIR$/src/T2018/DNAXuLie.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="675">
           <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
@@ -632,13 +668,30 @@
 =======
         <state relative-caret-position="240">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+=======
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> parent of 08ae77d... Revert "change learn"
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2018/MiGongDFS.java">
+    <entry file="file://$PROJECT_DIR$/src/T2018/ShanChuChongFuZiFU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="630">
+          <caret line="23" column="1" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T2018/KongZhongLvXing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -649,18 +702,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2018/DNAXuLie.java">
+    <entry file="file://$PROJECT_DIR$/src/T2018/XunHuanShu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2018/ShanChuChongFuZiFU.java">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="690">
           <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
 >>>>>>> parent of 7a17d00... change learn
@@ -715,11 +759,23 @@
         <state relative-caret-position="540">
           <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+        <state relative-caret-position="240">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T2018/MiGongDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T2018/ShanChuChongFuZiFU.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="108">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
@@ -764,6 +820,10 @@
         <state relative-caret-position="735">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
 >>>>>>> parent of 7a17d00... change learn
+=======
+        <state relative-caret-position="796">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="37" />
+>>>>>>> parent of 08ae77d... Revert "change learn"
         </state>
       </provider>
     </entry>
