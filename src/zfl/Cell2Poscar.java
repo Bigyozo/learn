@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Cell2Poscar {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+
 		
 		File cell = new File(args[0]);
 	    if(!cell.isFile())return;
