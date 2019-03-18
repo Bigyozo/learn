@@ -38,12 +38,6 @@ public class Send {
         String message = new String(packet.getData(), 0, packet.getLength());
         System.out.println("reveive MSG:");
         System.out.println(packet.getAddress().getHostAddress() + " : " + message);
-        try {
-            System.out.println("线程进入40s休眠");
-            Thread.sleep(1000 * 40);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         sendMsg("hello", packet.getAddress().getHostAddress(), packet.getPort());
     }
 }
