@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * @Author: zhangfanglong
  * @CreateTime: 2019-03-19 10:31
- * @Description: ${Description}
+ * @Description: 将数据格式转换成易于origin作图的格式
  */
 public class DataMerge {
     public static void main(String[] args) throws IOException {
@@ -38,11 +38,23 @@ public class DataMerge {
             br.readLine();
             k++;
         }
+        bw.write("Energy\tDensity");
+        bw.newLine();
+        bw.write("eV\tstates/eV");
+        bw.newLine();
+        if (k==5){
+            bw.write("x\ttotal\tSi\tO");
+            bw.newLine();
+        }else {
+            bw.write("x\ttotal\tSi up\tO up\tSi down\tO down");
+            bw.newLine();
+        }
         for (int i = 0; i < n; i++) {
             StringBuilder sb = new StringBuilder();
-            for (int j = 0; j < k - 1; j++) {
+            for (int j = 0; j < k-1; j++) {
                 sb.append(arr[i][j] + "      ");
             }
+            sb.append("0");
             bw.write(sb.toString());
             bw.newLine();
         }
