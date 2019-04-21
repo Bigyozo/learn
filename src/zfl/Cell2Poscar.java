@@ -6,7 +6,13 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+/**
+ * @Author: zhangfanglong
+ * @Description: 使用方法
+ * 编译后执行java Cell2Poscar C:\Users\Administrator\Desktop\test.cell 0 0.2
+ * 可将test.cell转换成POSCAR,且z方向原子坐标0至0.2设为T T T,其他为F F F
+ * 转换后原子种类及数目会输出在最末尾需要手动移到Select Dynamics上方
+ */
 public class Cell2Poscar {
 
 	public static void main(String[] args) throws IOException {
