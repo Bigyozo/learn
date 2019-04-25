@@ -46,7 +46,7 @@ public class DataMerge {
             bw.write("x\ttotal\tSi\tO");
             bw.newLine();
         }else {
-            bw.write("x\ttotal\tSi up\tO up\tSi down\tO down");
+            bw.write("x\ttotal_up\ttotal_down\tSi_up\tSi_down\tO_up\tO_down");
             bw.newLine();
         }
         for (int i = 0; i < n; i++) {
