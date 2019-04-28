@@ -8,7 +8,7 @@ package T2019;
 
 import java.util.*;
 
-public class Main2 {
+public class ShuZiHuFen {
 
 
     /*请完成下面这个函数，实现题目要求的功能

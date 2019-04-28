@@ -8,7 +8,7 @@ package T2019;
 
 import java.util.Scanner;
 
-public class Main {
+public class String2Int {
 
 
     /*请完成下面这个函数，实现题目要求的功能
