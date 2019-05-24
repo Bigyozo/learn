@@ -10,12 +10,12 @@ import java.util.Scanner;
 public class NumOf1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int k = scanner.nextInt();
+        long k = scanner.nextLong();
         int count = 0;
-        while (k > 0) {
+        while (k != 0) {
             if ((k & 1) == 1)
                 count++;
-            k = k >> 1;
+            k = k >>> 1;
         }
         System.out.println(count);
     }
