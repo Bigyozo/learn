@@ -1,24 +1,20 @@
 package T2019;
 
-/**
- * @Auther: zhangfanglong
- * @Date: 2019/5/24/024 17:17
- * @Description:
- */
-public class Test {
-    static {
-        System.out.println("blockB");
+
+public abstract class Test {
+    public static void main(String[] args) {
+        System.out.println(beforeFinally());
     }
 
-
-    public static Test t1=new Test();
-
-    {
-        System.out.println("blockA");
-    }
-
-
-    public static void main(String[] args){
-        Test t2=new Test();
+    public static int beforeFinally() {
+        int a = 0;
+        int b = 3;
+        try {
+            a = 1;
+            return a;
+        } finally {
+            a = 2;
+   //         return b;
+        }
     }
 }
