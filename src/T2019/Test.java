@@ -1,20 +1,15 @@
 package T2019;
 
-
-public abstract class Test {
+/**
+ * @Auther: zhangfanglong
+ * @Date: 2019/8/25/025 19:44
+ * @Description:
+ */
+public class Test {
     public static void main(String[] args) {
-        System.out.println(beforeFinally());
+        byte s1=127; s1=(byte)(s1 +1);
+        short s2 =1; s2+=1;
+        System.out.println(s1+" "+s2);
     }
 
-    public static int beforeFinally() {
-        int a = 0;
-        int b = 3;
-        try {
-            a = 1;
-            return a;
-        } finally {
-            a = 2;
-   //         return b;
-        }
-    }
 }
