@@ -1,21 +1,20 @@
 package T2019;
 
-import java.util.HashMap;
+import java.util.Arrays;
+import java.util.Comparator;
 
-/**
- * @Auther: zhangfanglong
- * @Date: 2019/8/25/025 19:44
- * @Description:
- */
 public class Test {
     public static void main(String[] args) {
-        byte s1=127; s1=(byte)(s1 +1);
-        short s2 =1; s2+=1;
-        System.out.println(s1+" "+s2);
-        HashMap<Integer,Integer> map=new HashMap<>();
-        map.put(1,2);
-        map.put(1,3);
-        System.out.println(map.get(1));
-    }
+        String[] arr = {"27", "20", "202", "18", "158", "97", "563", "204", "2"};
+        Arrays.sort(arr, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                String var1 = o1 + o2;
+                String var2 = o2 + o1;
+                return var2.compareTo(var1);
+            }
+        });
+        Arrays.stream(arr).forEach(o -> System.out.print(o + " "));
 
+    }
 }
